@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Sidebar from '../components/Sidebar'
-import Appex from '../components/Appex'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,7 +14,8 @@ export default function Home() {
       </Head>
       
       <Sidebar/>
-      <Appex/>
+    
+    
 
      
     </div>
